@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let username = prompt('what is your name?');
 
