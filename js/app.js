@@ -15,17 +15,19 @@ sayHello();
 
 
 
-// function quest
-
 let answer1 = prompt('Do I like the beach?').toLowerCase();
-if (answer1 === 'yes' || answer1 === 'y') {
-  alert('correct, I grew up surfing');
-  score++;
-} else if (answer1 === 'no') {
-  alert('sorry your are wrong');
-} else {
-  alert('I did not catch what you said');
+function questionOne(){
+  if (answer1 === 'yes' || answer1 === 'y') {
+    alert('correct, I grew up surfing');
+    score++;
+  } else if (answer1 === 'no') {
+    alert('sorry your are wrong');
+  } else {
+    alert('I did not catch what you said');
+  }
+  console.log();
 }
+questionOne();
 
 
 let answer2 = prompt('Do I speak english?').toLowerCase();
