@@ -1,14 +1,23 @@
 'use strict';
+
+
 let score = 0;
 let username = prompt('what is your name?');
-
-if (username) {
-  alert('hello ' + username);
-} else {
-  alert('Hello Friend');
+function sayHello(){
+  if (username) {
+    alert('Hello ' + username);
+  } else {
+    alert('Hello Friend');
+  }
+  console.log('Hello');
 }
-let answer1 = prompt('Do I like the beach?').toLowerCase();
+sayHello();
 
+
+
+// function quest
+
+let answer1 = prompt('Do I like the beach?').toLowerCase();
 if (answer1 === 'yes' || answer1 === 'y') {
   alert('correct, I grew up surfing');
   score++;
@@ -17,6 +26,8 @@ if (answer1 === 'yes' || answer1 === 'y') {
 } else {
   alert('I did not catch what you said');
 }
+
+
 let answer2 = prompt('Do I speak english?').toLowerCase();
 
 if (answer2 === 'yes' || answer1 === 'y') {
