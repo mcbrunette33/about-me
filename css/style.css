@@ -3,3 +3,15 @@ p{
   border: black;
   font-size: larger;
 }
+h1{
+  text-shadow: 0 0 3px #4e67f1;
+}
+h2{
+  text-shadow: 0 0 3px #09ee60;
+}
+h3{
+  text-shadow: 0 0 3px #7d67face;
+}
+h4{
+  text-shadow: 0 0 3px #ff1b1b;
+}

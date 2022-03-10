@@ -70,7 +70,7 @@ while (i < 4) {
   } else if (parseInt(answer6) < correctanswer) {
     alert('too low');
     i++;
-  } else if (answer6 > correctanswer) {
+  } else if (parseInt(answer6) > correctanswer) {
     alert('too high');
     i++;
   }
