@@ -31,15 +31,21 @@ questionOne();
 
 
 let answer2 = prompt('Do I speak english?').toLowerCase();
-
-if (answer2 === 'yes' || answer1 === 'y') {
-  alert('I had to give you a freebee');
-  score++;
-} else if (answer2 === 'no') {
-  alert('come on, that was an easy one');
-} else {
-  alert('I did not catch what you said');
+function questionTwo(){
+  if (answer2 === 'yes' || answer1 === 'y') {
+    alert('I had to give you a freebee');
+    score++;
+  } else if (answer2 === 'no') {
+    alert('come on, that was an easy one');
+  } else {
+    alert('I did not catch what you said');
+  }
+  console.log();
 }
+
+questionTwo();
+
+
 let answer3 = prompt('Do I travel?').toLowerCase();
 
 if (answer3 === 'yes' || answer1 === 'y') {
